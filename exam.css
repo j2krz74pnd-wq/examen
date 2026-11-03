@@ -164,9 +164,9 @@ body{
     gap: 20px;
 }
 .card{
-    width: 392px;
-    height: 348px;
-    padding: 70px 68px 0;
+    min-height: 348px;
+    padding: 70px 40px 60px;
+    flex: 1;
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -190,6 +190,34 @@ body{
     font-size: 15px;
     line-height: 26px;
     color: #444;
+}
+.banner-section{
+    height: 604px;
+    margin-top: 150px;
+    padding-top: 134px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("startup\ 3.png") center / cover;
+    text-align: center;
+    
+}
+.banner-title{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px 0;
+    background-color: #15a98b;
+    font-size: 32px;
+    font-weight: 640;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+.banner-text{
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 34px;
+}
+.banner-btn{
+    width: 341px;
+    height: 80px;
+    margin-top: 33px;
 }
 
 @media (max-width: 500px){
@@ -331,5 +359,62 @@ body{
     }
     .service-img-second{
         width: 270px;
+    }
+    .whom-section{
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    .cards{
+        margin-top: 32px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card{
+        min-height: 0;
+        padding: 5px 24px 40px;
+        flex: none;
+    }
+    .card-num{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .card-title{
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-text{
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+ 
+    .banner-section{
+        height: auto;
+        margin-top: 56px;
+        padding: 90px 16px 109px;
+    }
+    .banner-title{
+        padding: 0;
+        background-color: #15a98b;
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .banner-mark{
+        padding: 2px 8px;
+        background-color: #15a98b;
+        box-decoration-break: clone;
+    }
+    .banner-text{
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .banner-btn{
+        width: 277px;
+        height: 54px;
+        margin-top: 40px;
+        border-radius: 4px;
+        font-size: 16px;
     }
 }

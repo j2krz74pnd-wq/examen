@@ -154,6 +154,43 @@ body{
 .service-img-second{
     width: 363px;
 }
+.whom-section{
+    max-width: 1216px;
+    margin: 150px auto 0;
+}
+.cards{
+    margin-top: 62px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width: 392px;
+    height: 348px;
+    padding: 70px 68px 0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.card-num{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: #94bbd8;
+}
+.card-title{
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000;
+}
+.card-text{
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #444;
+}
 
 @media (max-width: 500px){
     .hero-section{

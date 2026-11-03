@@ -1232,7 +1232,7 @@ body {
 
 .footer-section {
     padding: 60px 0;
-    background: linear-gradient(rgba(4, 38, 48, 0.85), rgba(4, 38, 48, 0.85)), url("./uae-4-2048x1367 3.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(4, 38, 48, 0.85), rgba(4, 38, 48, 0.85)), url("./uae-4-2048x1367\ 3.png") center / cover no-repeat;
     color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

@@ -93,6 +93,67 @@ body{
     height: 80px;
     margin-top: 32px;
 }
+.services-section{
+    max-width: 1216px;
+    margin: 124px auto 0;
+}
+.services-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #3277b3;
+}
+.service{
+    display: flex;
+    align-items: center;
+}
+.service-first{
+    margin-top: 130px;
+    justify-content: space-between;
+}
+.service-second{
+    margin-top: 150px;
+    padding-left: 70px;
+}
+.service-text{
+    width: 636px;
+}
+.service-second .service-text{
+    width: 612px;
+    margin-left: 118px;
+}
+.service-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3277b3;
+}
+.service-desc{
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #222;
+}
+.service-desc + .service-desc{
+    margin-top: 0;
+}
+.service-btn{
+    width: 324px;
+    height: 70px;
+    margin-top: 36px;
+    color: white;
+    background-color: #15a98b;
+    border: none;
+    border-radius: 5px;
+}
+.service-img-first{
+    width: 414px;
+    margin-right: 45px;
+}
+.service-img-second{
+    width: 363px;
+}
 
 @media (max-width: 500px){
     .hero-section{
@@ -175,5 +236,63 @@ body{
         margin-top: 36px;
         border-radius: 4px;
         font-size: 18px;
+    }
+   .services-section{
+        margin-top: 40px;
+    }
+    .services-title{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .service{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .service-first{
+        margin-top: 30px;
+    }
+    .service-second{
+        margin-top: 55px;
+        padding-left: 0;
+    }
+    .service-text,
+    .service-second .service-text{
+        width: 100%;
+        margin-left: 0;
+    }
+    .service-name{
+        margin-top: 30px;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .service-desc{
+        margin-top: 16px;
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #444;
+    }
+    .service-desc + .service-desc{
+        margin-top: 8px;
+    }
+    .service-btn{
+        width: 100%;
+        height: 40px;
+        margin-top: 28px;
+        border-radius: 4px;
+        background-color: #15a98b;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .service-img-first{
+        order: -1;
+        width: 270px;
+        margin: 0;
+    }
+    .service-img-second{
+        width: 270px;
     }
 }

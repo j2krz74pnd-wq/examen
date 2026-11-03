@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-body{
+
+body {
     color: white;
 }
 
-.blue-btn{
+.blue-btn {
     border: none;
     border-radius: 8px;
     background: linear-gradient(to right, #6db5e6, #1a6fb5);
@@ -18,32 +19,37 @@ body{
     cursor: pointer;
 }
 
-.hero-section{
+.hero-section {
     height: 900px;
     background: linear-gradient(rgba(4, 38, 48, 0.6), rgba(4, 38, 48, 0.6)), url("./uae-4-2048x1367\ 2.png") center / cover;
 }
-.header-in{
+
+.header-in {
     max-width: 1216px;
     height: 90px;
     margin: auto;
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
     font-size: 24px;
     font-weight: 800;
 }
-.logo span{
+
+.logo span {
     color: #3ba3ea;
 }
-.nav{
+
+.nav {
     margin-left: 209px;
     display: flex;
     gap: 53px;
     font-size: 18px;
     font-weight: 500;
 }
-.login-btn{
+
+.login-btn {
     width: 149px;
     height: 56px;
     margin: 0 0 12px auto;
@@ -55,24 +61,28 @@ body{
     color: white;
     cursor: pointer;
 }
-.burger{
+
+.burger {
     display: none;
 }
 
-.hero-text{
+.hero-text {
     max-width: 1216px;
     margin: 163px auto 0;
 }
-.hero-title{
+
+.hero-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
     text-transform: uppercase;
 }
-.title-line{
+
+.title-line {
     display: block;
 }
-.title-mark{
+
+.title-mark {
     width: fit-content;
     margin-left: -11px;
     padding: 0 11px;
@@ -80,65 +90,79 @@ body{
     line-height: 60px;
     background-color: #15a98b;
 }
-.hero-sub{
+
+.hero-sub {
     margin-top: 24px;
     font-size: 36px;
     line-height: 44px;
 }
-.hero-sub-mobile{
+
+.hero-sub-mobile {
     display: none;
 }
-.hero-btn{
+
+.hero-btn {
     width: 219px;
     height: 80px;
     margin-top: 32px;
 }
-.services-section{
+
+.services-section {
     max-width: 1216px;
     margin: 124px auto 0;
 }
-.services-title{
+
+.services-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     color: #3277b3;
 }
-.service{
+
+.service {
     display: flex;
     align-items: center;
 }
-.service-first{
+
+.service-first {
     margin-top: 130px;
     justify-content: space-between;
 }
-.service-second{
+
+.service-second {
     margin-top: 150px;
     padding-left: 70px;
 }
-.service-text{
+
+.service-text {
     width: 636px;
 }
-.service-second .service-text{
+
+.service-second .service-text {
     width: 612px;
     margin-left: 118px;
 }
-.service-name{
+
+.service-name {
     font-size: 22px;
     font-weight: 600;
     line-height: 30px;
     color: #3277b3;
 }
-.service-desc{
+
+.service-desc {
     margin-top: 16px;
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
     color: #222;
 }
-.service-desc + .service-desc{
+
+.service-desc+.service-desc {
     margin-top: 0;
 }
-.service-btn{
+
+.service-btn {
     width: 324px;
     height: 70px;
     margin-top: 36px;
@@ -147,23 +171,28 @@ body{
     border: none;
     border-radius: 5px;
 }
-.service-img-first{
+
+.service-img-first {
     width: 414px;
     margin-right: 45px;
 }
-.service-img-second{
+
+.service-img-second {
     width: 363px;
 }
-.whom-section{
+
+.whom-section {
     max-width: 1216px;
     margin: 150px auto 0;
 }
-.cards{
+
+.cards {
     margin-top: 62px;
     display: flex;
     gap: 20px;
 }
-.card{
+
+.card {
     min-height: 348px;
     padding: 70px 40px 60px;
     flex: 1;
@@ -172,34 +201,39 @@ body{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
-.card-num{
+
+.card-num {
     font-size: 72px;
     font-weight: 800;
     line-height: 88px;
     color: #94bbd8;
 }
-.card-title{
+
+.card-title {
     margin-top: 28px;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     color: #000;
 }
-.card-text{
+
+.card-text {
     margin-top: 16px;
     font-size: 15px;
     line-height: 26px;
     color: #444;
 }
-.banner-section{
+
+.banner-section {
     height: 604px;
     margin-top: 150px;
     padding-top: 134px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("startup\ 3.png") center / cover;
     text-align: center;
-    
+
 }
-.banner-title{
+
+.banner-title {
     max-width: 1200px;
     margin: auto;
     padding: 5px 0;
@@ -209,21 +243,25 @@ body{
     line-height: 64px;
     text-transform: uppercase;
 }
-.banner-text{
+
+.banner-text {
     margin-top: 13px;
     font-size: 18px;
     line-height: 34px;
 }
-.banner-btn{
+
+.banner-btn {
     width: 341px;
     height: 80px;
     margin-top: 33px;
 }
-.market-section{
+
+.market-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
-.tabs{
+
+.tabs {
     height: 69px;
     margin-top: 54px;
     border-radius: 4px;
@@ -231,7 +269,8 @@ body{
     display: flex;
     overflow: hidden;
 }
-.tab{
+
+.tab {
     flex: 1;
     display: flex;
     align-items: center;
@@ -239,79 +278,94 @@ body{
     font-size: 20px;
     color: #444;
 }
-.tab + .tab{
+
+.tab+.tab {
     border-left: 1px solid #dfe3e8;
 }
-.tab-active{
+
+.tab-active {
     background-color: #94bad5;
     font-weight: 600;
     color: white;
 }
-.market{
+
+.market {
     margin-top: 58px;
     display: flex;
     position: relative;
 }
-.market-map{
+
+.market-map {
     width: 425px;
     position: absolute;
     left: 330px;
     top: 57px;
 }
-.market-info{
+
+.market-info {
     width: 462px;
     position: relative;
 }
-.market-title{
+
+.market-title {
     font-size: 30px;
     font-weight: 600;
     line-height: 45px;
     text-transform: uppercase;
     color: #000;
 }
-.market-title span{
+
+.market-title span {
     color: #4caf94;
 }
-.market-text{
+
+.market-text {
     width: 264px;
     margin-top: 28px;
     font-size: 16px;
     line-height: 26px;
     color: #222;
 }
-.market-btn{
+
+.market-btn {
     width: 252px;
     height: 68px;
     margin-top: 38px;
     font-size: 18px;
 }
-.manager{
+
+.manager {
     margin-top: 46px;
     display: flex;
     align-items: center;
     gap: 11px;
 }
-.manager-img{
+
+.manager-img {
     width: 62px;
     height: 62px;
 }
-.manager-name{
+
+.manager-name {
     font-size: 16px;
     line-height: 24px;
     color: #000;
 }
-.manager-job{
+
+.manager-job {
     font-size: 14px;
     line-height: 22px;
     color: #777;
 }
-.stats{
+
+.stats {
     display: grid;
     grid-template-columns: 288px 288px;
     gap: 20px;
     position: relative;
 }
-.stat{
+
+.stat {
     height: 200px;
     padding-top: 45px;
     border-radius: 8px;
@@ -319,50 +373,59 @@ body{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
-.stat-num{
+
+.stat-num {
     font-size: 46px;
     font-weight: 800;
     line-height: 56px;
     color: #94bbd8;
 }
-.stat-num span{
+
+.stat-num span {
     font-size: 24px;
     font-weight: 700;
 }
-.stat-text{
+
+.stat-text {
     margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
     color: #8a8d99;
 }
-.stat-download{
+
+.stat-download {
     padding-top: 40px;
     background-color: #3777af;
     box-shadow: 0 10px 30px rgba(55, 119, 175, 0.3);
 }
-.download-text{
+
+.download-text {
     margin-top: 22px;
     font-size: 20px;
     line-height: 26px;
     color: white;
 }
-.about-section{
+
+.about-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
-.about-text{
+
+.about-text {
     margin-top: 30px;
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     color: #222;
 }
-.about-cards{
+
+.about-cards {
     margin-top: 26px;
     display: flex;
     gap: 20px;
 }
-.about-card{
+
+.about-card {
     height: 284px;
     border-radius: 8px;
     background-color: white;
@@ -373,13 +436,15 @@ body{
     align-items: center;
     justify-content: center;
 }
-.about-card-text{
+
+.about-card-text {
     margin-top: 35px;
     font-size: 20px;
     line-height: 24px;
     color: #222;
 }
-.video{
+
+.video {
     height: 674px;
     margin-top: 22px;
     padding-top: 207px;
@@ -387,36 +452,43 @@ body{
     background-color: #0f0f0f;
     text-align: center;
 }
-.video-title{
+
+.video-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
 }
-.play-btn{
+
+.play-btn {
     margin-top: 55px;
     border: none;
     background: none;
     cursor: pointer;
 }
-.play-btn img{
+
+.play-btn img {
     width: 115px;
     display: block;
 }
-.program-section{
+
+.program-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
-.modules{
+
+.modules {
     margin-top: 30px;
 }
-.module{
+
+.module {
     margin-bottom: 20px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
     overflow: hidden;
 }
-.module-head{
+
+.module-head {
     height: 86px;
     padding-left: 50px;
     display: flex;
@@ -424,45 +496,55 @@ body{
     list-style: none;
     cursor: pointer;
 }
-.module-head::-webkit-details-marker{
+
+.module-head::-webkit-details-marker {
     display: none;
 }
-.module-name{
+
+.module-name {
     font-size: 20px;
     font-weight: 700;
     color: #3777af;
 }
-.module-title{
+
+.module-title {
     margin-left: 15px;
     font-size: 20px;
     font-weight: 500;
     color: #000;
 }
-.module-demo{
+
+.module-demo {
     height: 86px;
     padding-left: 50px;
     display: flex;
     align-items: center;
 }
-.arrow{
+
+.arrow {
     width: 41px;
     height: 41px;
     margin: 0 40px 0 auto;
 }
-.arrow img{
+
+.arrow img {
     width: 100%;
     display: block;
 }
-.arrow-up{
+
+.arrow-up {
     display: none;
 }
-.module[open] .arrow-down{
+
+.module[open] .arrow-down {
     display: none;
 }
-.module[open] .arrow-up{
+
+.module[open] .arrow-up {
     display: block;
 }
-.topic{
+
+.topic {
     height: 68px;
     padding-left: 50px;
     border-top: 1px solid #eee;
@@ -471,44 +553,52 @@ body{
     font-size: 15px;
     color: #666;
 }
-.topic-link{
+
+.topic-link {
     color: #3777af;
 }
-.program-btn{
+
+.program-btn {
     width: 376px;
     height: 69px;
     margin-top: 6px;
     font-size: 18px;
     font-weight: 500;
 }
-.radar-section{
+
+.radar-section {
     height: 500px;
     margin-top: 120px;
     background: url("./Group\ 796.png") center / cover;
 }
-.radar-in{
+
+.radar-in {
     max-width: 1216px;
     margin: auto;
     display: flex;
 }
-.radar-text{
+
+.radar-text {
     width: 777px;
     padding-top: 90px;
 }
-.radar-title{
+
+.radar-title {
     width: 560px;
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
 }
-.radar-desc{
+
+.radar-desc {
     width: 500px;
     margin-top: 16px;
     font-size: 18px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.9);
 }
-.radar-btn{
+
+.radar-btn {
     width: 326px;
     height: 70px;
     margin-top: 20px;
@@ -519,34 +609,40 @@ body{
     border: none;
     color: white;
 }
-.radar-logos{
+
+.radar-logos {
     margin-top: 59px;
     display: grid;
     grid-template-columns: 226px 226px;
     grid-template-rows: 132px 132px 132px;
     position: relative;
 }
-.radar-dots{
+
+.radar-dots {
     position: absolute;
     left: 171px;
     top: 31px;
 }
-.logo-card{
+
+.logo-card {
     width: 246px;
     margin: -20px 0 0 -20px;
     position: relative;
 }
-.result-section{
+
+.result-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
-.results{
+
+.results {
     margin-top: 37px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.result{
+
+.result {
     height: 280px;
     padding: 28px 55px 0;
     border-radius: 8px;
@@ -554,36 +650,42 @@ body{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
-.result-title{
+
+.result-title {
     margin-top: 9px;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
     color: #000;
 }
-.result-text{
+
+.result-text {
     margin-top: 10px;
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
     color: #444;
 }
-.sec-title{
+
+.sec-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     color: #3277b3;
 }
-.price-section{
+
+.price-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
-.prices{
+
+.prices {
     margin-top: 52px;
     display: flex;
     gap: 20px;
 }
-.price{
+
+.price {
     padding-bottom: 35px;
     border-radius: 8px;
     background-color: white;
@@ -591,45 +693,52 @@ body{
     flex: 1;
 }
 
-.price-head{
+.price-head {
     height: 206px;
     padding-top: 30px;
     border-bottom: 1px solid #e8eaed;
     text-align: center;
 }
-.price-icon{
+
+.price-icon {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.price-title{
+
+.price-title {
     margin-top: 11px;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     color: #222;
 }
-.price-body{
+
+.price-body {
     height: 281px;
     padding: 17px 40px 0;
 }
-.price-q{
+
+.price-q {
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;
     color: #111;
 }
-.price-item{
+
+.price-item {
     padding-left: 5px;
     font-size: 16px;
     line-height: 35px;
     color: #222;
 }
-.price-q + .price-item{
+
+.price-q+.price-item {
     margin-top: 16px;
 }
-.price-row{
+
+.price-row {
     height: 60px;
     padding: 0 40px;
     border-top: 1px solid #e8eaed;
@@ -637,21 +746,25 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.price-label{
+
+.price-label {
     font-size: 17px;
     font-weight: 500;
     color: #111;
 }
-.price-value{
+
+.price-value {
     font-size: 16px;
     color: #333;
 }
-.price-sum{
+
+.price-sum {
     font-size: 18px;
     font-weight: 700;
     color: #0e75b0;
 }
-.price-btn{
+
+.price-btn {
     width: calc(100% - 80px);
     height: 70px;
     margin: 26px 40px 0;
@@ -689,7 +802,7 @@ body{
     line-height: 30px;
 }
 
-.who-text p + p {
+.who-text p+p {
     margin-top: 40px;
 }
 
@@ -749,11 +862,13 @@ body{
     max-width: 1216px;
     margin: 60px auto 0;
 }
+
 .gallery-grid {
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
+
 .gallery-item {
     flex: 1;
     height: 160px;
@@ -762,6 +877,7 @@ body{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     background-color: #000;
 }
+
 .gallery-item img {
     width: 100%;
     height: 100%;
@@ -774,6 +890,7 @@ body{
     max-width: 1216px;
     margin: 120px auto 0;
 }
+
 .experts-slider-wrap {
     margin-top: 50px;
     display: flex;
@@ -781,17 +898,20 @@ body{
     gap: 20px;
     position: relative;
 }
+
 .experts-track {
     display: flex;
     gap: 24px;
     overflow: hidden;
     width: 100%;
 }
+
 .expert-card {
     flex: 1;
     text-align: center;
     background: transparent;
 }
+
 .expert-img {
     width: 180px;
     height: 180px;
@@ -801,12 +921,14 @@ body{
     display: block;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
+
 .expert-name {
     margin-top: 24px;
     font-size: 18px;
     font-weight: 700;
     color: #000;
 }
+
 .expert-desc {
     margin-top: 12px;
     font-size: 14px;
@@ -814,6 +936,7 @@ body{
     color: #555;
     padding: 0 10px;
 }
+
 .slider-btn {
     width: 48px;
     height: 48px;
@@ -828,23 +951,28 @@ body{
     box-shadow: 0 4px 12px rgba(26, 111, 181, 0.3);
     transition: background-color 0.2s;
 }
+
 .slider-btn:hover {
     background-color: #125187;
 }
+
 .slider-btn img {
     width: 12px;
     display: block;
 }
+
 .partners-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
+
 .partners-grid {
     margin-top: 52px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
 .partner-card {
     height: 120px;
     padding: 20px;
@@ -855,12 +983,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .partner-card img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     display: block;
 }
+
 .partner-cta-section {
     height: 520px;
     margin-top: 120px;
@@ -870,37 +1000,44 @@ body{
     justify-content: center;
     text-align: center;
 }
+
 .partner-cta-content {
     max-width: 800px;
     padding: 0 20px;
 }
+
 .partner-cta-title {
     font-size: 38px;
     font-weight: 700;
     line-height: 50px;
     color: white;
 }
+
 .partner-cta-text {
     margin-top: 20px;
     font-size: 18px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.9);
 }
+
 .partner-cta-btn {
     width: 250px;
     height: 64px;
     margin-top: 36px;
     font-size: 18px;
 }
+
 .events-section {
     max-width: 1216px;
     margin: 120px auto 0;
 }
+
 .events-grid {
     margin-top: 52px;
     display: flex;
     gap: 20px;
 }
+
 .event-card {
     flex: 1;
     background-color: white;
@@ -910,28 +1047,33 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .event-img-wrap {
     height: 180px;
     overflow: hidden;
 }
+
 .event-img-wrap img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
+
 .event-body {
     padding: 24px;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
+
 .event-title {
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
     color: #000;
 }
+
 .event-desc {
     margin-top: 12px;
     font-size: 14px;
@@ -939,16 +1081,19 @@ body{
     color: #555;
     flex: 1;
 }
+
 .event-date {
     margin-top: 24px;
     font-size: 14px;
     color: #888;
 }
+
 .feedback-section {
     padding: 100px 0;
     margin-top: 120px;
     background: url("./Group 796.png") center / cover;
 }
+
 .feedback-in {
     max-width: 1216px;
     margin: auto;
@@ -957,33 +1102,40 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .feedback-text {
     width: 500px;
 }
+
 .feedback-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     color: white;
 }
+
 .feedback-desc {
     margin-top: 16px;
     font-size: 18px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.9);
 }
+
 .feedback-socials {
     margin-top: 60px;
 }
+
 .socials-label {
     font-size: 16px;
     color: white;
 }
+
 .socials-links {
     margin-top: 16px;
     display: flex;
     gap: 24px;
 }
+
 .social-link {
     display: flex;
     align-items: center;
@@ -997,6 +1149,7 @@ body{
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
+
 .social-link img {
     width: 20px;
     height: 20px;
@@ -1009,11 +1162,13 @@ body{
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
 .feedback-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .form-input {
     width: 100%;
     height: 56px;
@@ -1025,9 +1180,11 @@ body{
     outline: none;
     color: #333;
 }
+
 .form-input:focus {
     border-color: #15a98b;
 }
+
 .form-phone-wrap {
     display: flex;
     align-items: center;
@@ -1035,9 +1192,11 @@ body{
     border-radius: 8px;
     overflow: hidden;
 }
+
 .form-phone-wrap:focus-within {
     border-color: #15a98b;
 }
+
 .phone-code {
     padding: 0 15px;
     font-size: 16px;
@@ -1048,9 +1207,11 @@ body{
     display: flex;
     align-items: center;
 }
+
 .phone-input {
     border: none;
 }
+
 .form-btn {
     width: 100%;
     height: 56px;
@@ -1064,9 +1225,11 @@ body{
     margin-top: 10px;
     transition: background-color 0.2s;
 }
+
 .form-btn:hover {
     background-color: #128c73;
 }
+
 .footer-section {
     padding: 60px 0;
     background: linear-gradient(rgba(4, 38, 48, 0.85), rgba(4, 38, 48, 0.85)), url("./uae-4-2048x1367 3.jpg") center / cover no-repeat;
@@ -1132,23 +1295,27 @@ body{
     cursor: pointer;
 }
 
-@media (max-width: 500px){
-    .hero-section{
+@media (max-width: 500px) {
+    .hero-section {
         height: 648px;
         background-position: 62% center;
     }
-    .header-in{
+
+    .header-in {
         height: 68px;
         padding: 0 16px;
         gap: 12px;
     }
-    .logo{
+
+    .logo {
         font-size: 20px;
     }
-    .nav{
+
+    .nav {
         display: none;
     }
-    .login-btn{
+
+    .login-btn {
         width: 81px;
         height: 36px;
         margin: 0 0 0 auto;
@@ -1156,7 +1323,8 @@ body{
         background-color: #4caf94;
         font-size: 14px;
     }
-    .burger{
+
+    .burger {
         width: 36px;
         height: 36px;
         border: none;
@@ -1166,20 +1334,23 @@ body{
         align-items: center;
         justify-content: center;
     }
-    .burger img{
+
+    .burger img {
         width: 20px;
     }
 
-    .hero-text{
+    .hero-text {
         margin-top: 70px;
         padding: 0 16px;
         text-align: center;
     }
-    .hero-title{
+
+    .hero-title {
         font-size: 24px;
         line-height: 46px;
     }
-    .title-mark{
+
+    .title-mark {
         margin-left: 0;
         padding: 4px 10px;
         border-radius: 4px;
@@ -1187,75 +1358,90 @@ body{
         line-height: 46px;
         box-decoration-break: clone;
     }
-    .hide-mobile{
+
+    .hide-mobile {
         display: none;
     }
-    .hero-sub-desktop{
+
+    .hero-sub-desktop {
         display: none;
     }
-    .hero-sub-mobile{
+
+    .hero-sub-mobile {
         width: 240px;
         margin: 32px auto 0;
         display: block;
         font-size: 16px;
         line-height: 32px;
     }
-    .hero-date{
+
+    .hero-date {
         padding: 4px 6px;
         border-radius: 2px;
         background-color: white;
         font-weight: 700;
         color: #15a98b;
     }
-    .hero-btn{
+
+    .hero-btn {
         width: 212px;
         height: 50px;
         margin-top: 36px;
         border-radius: 4px;
         font-size: 18px;
     }
-   .services-section{
+
+    .services-section {
         margin-top: 40px;
     }
-    .services-title{
+
+    .services-title {
         font-size: 24px;
         line-height: 32px;
         text-align: center;
     }
-    .service{
+
+    .service {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    .service-first{
+
+    .service-first {
         margin-top: 30px;
     }
-    .service-second{
+
+    .service-second {
         margin-top: 55px;
         padding-left: 0;
     }
+
     .service-text,
-    .service-second .service-text{
+    .service-second .service-text {
         width: 100%;
         margin-left: 0;
     }
-    .service-name{
+
+    .service-name {
         margin-top: 30px;
         padding: 0 10px;
         font-size: 16px;
         line-height: 24px;
     }
-    .service-desc{
+
+    .service-desc {
         margin-top: 16px;
         padding: 0 10px;
         font-size: 14px;
         line-height: 28px;
         color: #444;
     }
-    .service-desc + .service-desc{
+
+    .service-desc+.service-desc {
         margin-top: 8px;
     }
-    .service-btn{
+
+    .service-btn {
         width: 100%;
         height: 40px;
         margin-top: 28px;
@@ -1264,133 +1450,159 @@ body{
         font-size: 16px;
         font-weight: 600;
     }
-    .service-img-first{
+
+    .service-img-first {
         order: -1;
         width: 270px;
         margin: 0;
     }
-    .service-img-second{
+
+    .service-img-second {
         width: 270px;
     }
-    .whom-section{
+
+    .whom-section {
         margin-top: 40px;
         padding: 0 20px;
     }
-    .cards{
+
+    .cards {
         margin-top: 32px;
         flex-direction: column;
         gap: 10px;
     }
-    .card{
+
+    .card {
         min-height: 0;
         padding: 5px 24px 40px;
         flex: none;
     }
-    .card-num{
+
+    .card-num {
         font-size: 70px;
         line-height: 80px;
     }
-    .card-title{
+
+    .card-title {
         margin-top: 16px;
         font-size: 14px;
         line-height: 20px;
     }
-    .card-text{
+
+    .card-text {
         margin-top: 16px;
         font-size: 14px;
         line-height: 24px;
     }
- 
-    .banner-section{
+
+    .banner-section {
         height: auto;
         margin-top: 56px;
         padding: 90px 16px 109px;
     }
-    .banner-title{
+
+    .banner-title {
         padding: 0;
         background-color: #15a98b;
         font-size: 24px;
         line-height: 38px;
     }
-    .banner-mark{
+
+    .banner-mark {
         padding: 2px 8px;
         background-color: #15a98b;
         box-decoration-break: clone;
     }
-    .banner-text{
+
+    .banner-text {
         margin-top: 40px;
         font-size: 14px;
         line-height: 20px;
     }
-    .banner-btn{
+
+    .banner-btn {
         width: 277px;
         height: 54px;
         margin-top: 40px;
         border-radius: 4px;
         font-size: 16px;
     }
-     .market-section{
+
+    .market-section {
         margin-top: 56px;
         padding: 0 20px;
         overflow: hidden;
     }
-    .tabs{
+
+    .tabs {
         height: 56px;
         margin-top: 54px;
     }
-    .tab{
+
+    .tab {
         padding: 0 6px;
         font-size: 11px;
         line-height: 16px;
         text-align: center;
     }
-    .market{
+
+    .market {
         margin-top: 20px;
         flex-direction: column;
     }
-    .market-map{
+
+    .market-map {
         width: 420px;
         left: 0;
         top: 70px;
         z-index: -1;
     }
-    .market-info{
+
+    .market-info {
         display: contents;
     }
-    .market-title{
+
+    .market-title {
         font-size: 22px;
         line-height: 30px;
     }
-    .market-text{
+
+    .market-text {
         width: 240px;
         margin-top: 12px;
         font-size: 15px;
         line-height: 26px;
     }
-    .manager{
+
+    .manager {
         margin-top: 31px;
         gap: 10px;
     }
-    .manager-img{
+
+    .manager-img {
         width: 46px;
         height: 46px;
     }
-    .manager-name{
+
+    .manager-name {
         font-size: 14px;
         line-height: 20px;
     }
-    .manager-job{
+
+    .manager-job {
         font-size: 12px;
         line-height: 18px;
     }
-    .stats{
+
+    .stats {
         margin-top: 32px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 161px 108px;
         gap: 19px 20px;
         order: 2;
     }
-    .stat{
+
+    .stat {
         height: auto;
         padding: 0 10px;
         border-radius: 6px;
@@ -1400,33 +1612,40 @@ body{
         align-items: center;
         justify-content: center;
     }
-    .stat-num{
+
+    .stat-num {
         font-size: 28px;
         line-height: 34px;
     }
-    .stat-num span{
+
+    .stat-num span {
         display: block;
         font-size: 20px;
         line-height: 24px;
     }
-    .stat-text{
+
+    .stat-text {
         margin-top: 8px;
         font-size: 13px;
         line-height: 20px;
     }
-    .stat-download{
+
+    .stat-download {
         padding-top: 0;
         background-color: #1275b5;
     }
-    .stat-download svg{
+
+    .stat-download svg {
         width: 24px;
     }
-    .download-text{
+
+    .download-text {
         margin-top: 12px;
         font-size: 14px;
         line-height: 20px;
     }
-    .market-btn{
+
+    .market-btn {
         width: 100%;
         height: 54px;
         margin-top: 12px;
@@ -1434,11 +1653,13 @@ body{
         font-size: 20px;
         order: 3;
     }
-    .about-section{
+
+    .about-section {
         margin-top: 56px;
         padding: 0 20px;
     }
-    .about-text{
+
+    .about-text {
         margin-top: 14px;
         padding: 0 10px;
         font-size: 14px;
@@ -1447,12 +1668,14 @@ body{
         text-align: center;
         color: #444;
     }
-    .about-cards{
+
+    .about-cards {
         margin-top: 19px;
         flex-direction: column;
         gap: 10px;
     }
-    .about-card{
+
+    .about-card {
         height: 142px;
         padding-left: 22px;
         box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
@@ -1461,57 +1684,71 @@ body{
         justify-content: flex-start;
         gap: 10px;
     }
-    .about-icon{
+
+    .about-icon {
         width: 70px;
         display: flex;
         justify-content: center;
     }
-    .icon-3{
+
+    .icon-3 {
         width: 39px;
     }
-    .icon-globe{
+
+    .icon-globe {
         width: 52px;
     }
-    .icon-manager{
+
+    .icon-manager {
         width: 57px;
     }
-    .about-card-text{
+
+    .about-card-text {
         margin-top: 0;
         font-size: 16px;
     }
-    .video{
+
+    .video {
         height: auto;
         margin-top: 10px;
         padding: 32px 20px;
         border-radius: 4px;
     }
-    .video-title{
+
+    .video-title {
         font-size: 18px;
         line-height: 28px;
     }
-    .play-btn{
+
+    .play-btn {
         margin-top: 18px;
     }
-    .play-btn img{
+
+    .play-btn img {
         width: 63px;
     }
-     .program-section{
+
+    .program-section {
         margin-top: 56px;
         padding: 0 20px;
     }
-    .modules{
+
+    .modules {
         margin-top: 20px;
     }
-    .module{
+
+    .module {
         margin-bottom: 22px;
         border-radius: 10px;
         box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
         overflow: visible;
     }
-    .module[open]{
+
+    .module[open] {
         margin-bottom: 13px;
     }
-    .module-head{
+
+    .module-head {
         height: auto;
         min-height: 0;
         padding: 15px 20px 18px;
@@ -1520,31 +1757,36 @@ body{
         text-align: center;
         position: relative;
     }
-    .module-name{
+
+    .module-name {
         font-size: 14px;
         line-height: 20px;
     }
-    .module-weeks{
+
+    .module-weeks {
         margin-left: 20px;
         display: block;
         font-size: 14px;
         line-height: 20px;
         color: #333;
     }
-    .module-title{
+
+    .module-title {
         width: 100%;
         margin-left: 0;
         font-size: 14px;
         line-height: 22px;
     }
-    .module-demo{
+
+    .module-demo {
         height: 92px;
         padding-left: 0;
         justify-content: center;
         position: relative;
     }
+
     .arrow,
-    .arrow-demo{
+    .arrow-demo {
         width: 24px;
         height: 24px;
         margin: 0;
@@ -1554,7 +1796,8 @@ body{
         bottom: -12px;
         transform: translateX(-50%);
     }
-    .topic{
+
+    .topic {
         height: auto;
         min-height: 60px;
         padding: 10px 15px;
@@ -1562,45 +1805,53 @@ body{
         line-height: 20px;
         color: #777;
     }
-    .program-btn{
+
+    .program-btn {
         width: 100%;
         height: 50px;
         margin-top: 6px;
         border-radius: 4px;
         font-size: 16px;
     }
-    .radar-section{
+
+    .radar-section {
         height: auto;
         margin-top: 56px;
         padding: 50px 16px;
     }
-    .radar-in{
+
+    .radar-in {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    .radar-text{
+
+    .radar-text {
         width: 100%;
         padding-top: 0;
     }
-    .radar-title{
+
+    .radar-title {
         width: 100%;
         font-size: 24px;
         line-height: 36px;
     }
-    .radar-desc{
+
+    .radar-desc {
         width: 100%;
         margin-top: 16px;
         font-size: 14px;
         line-height: 22px;
     }
-    .radar-btn{
+
+    .radar-btn {
         width: 100%;
         height: 54px;
         margin-top: 24px;
         font-size: 16px;
     }
-    .radar-logos{
+
+    .radar-logos {
         width: 100%;
         margin-top: 36px;
         display: grid;
@@ -1609,10 +1860,12 @@ body{
         gap: 12px;
         position: static;
     }
-    .radar-dots{
-        display: none; 
+
+    .radar-dots {
+        display: none;
     }
-    .logo-card{
+
+    .logo-card {
         width: 100%;
         height: 80px;
         margin: 0;
@@ -1623,98 +1876,118 @@ body{
         object-fit: contain;
         position: static;
     }
-    .result-section{
+
+    .result-section {
         margin-top: 56px;
         padding: 0 20px;
     }
-    .results{
+
+    .results {
         margin-top: 24px;
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
-    .result{
+
+    .result {
         height: auto;
         min-height: 0;
         padding: 24px 20px 28px;
         border-radius: 8px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     }
-    .result .card-num{
+
+    .result .card-num {
         font-size: 48px;
         line-height: 56px;
     }
-    .result-title{
+
+    .result-title {
         margin-top: 8px;
         font-size: 16px;
         line-height: 22px;
     }
-    .result-text{
+
+    .result-text {
         margin-top: 8px;
         font-size: 14px;
         line-height: 20px;
     }
-    .price-section{
+
+    .price-section {
         margin-top: 56px;
         padding: 0 20px;
     }
-    .prices{
+
+    .prices {
         margin-top: 24px;
         flex-direction: column;
         gap: 20px;
     }
-    .price{
+
+    .price {
         padding-bottom: 25px;
         border-radius: 8px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     }
-    .price-head{
+
+    .price-head {
         height: auto;
         padding: 24px 20px 20px;
     }
-    .price-icon{
+
+    .price-icon {
         height: 60px;
     }
-    .price-title{
+
+    .price-title {
         margin-top: 10px;
         font-size: 18px;
         line-height: 26px;
     }
-    .price-body{
+
+    .price-body {
         height: auto;
         padding: 15px 20px 0;
     }
-    .price-q{
+
+    .price-q {
         font-size: 16px;
         line-height: 24px;
     }
-    .price-item{
+
+    .price-item {
         font-size: 14px;
         line-height: 28px;
     }
-    .price-row{
+
+    .price-row {
         height: 50px;
         padding: 0 20px;
     }
+
     .price-label,
-    .price-value{
+    .price-value {
         font-size: 15px;
     }
-    .price-sum{
+
+    .price-sum {
         font-size: 16px;
     }
-    .price-btn{
+
+    .price-btn {
         width: calc(100% - 40px);
         height: 54px;
         margin: 20px 20px 0;
         border-radius: 4px;
         font-size: 16px;
     }
-    /* Адаптив для секции "Кто мы?" (.who-section) */
+
     .who-section {
         margin-top: 56px;
         padding: 0 20px;
     }
+
     .who-content {
         margin-top: 24px;
         flex-direction: column;
@@ -1722,21 +1995,26 @@ body{
         align-items: center;
         text-align: center;
     }
+
     .who-img {
         width: 100%;
         max-width: 320px;
     }
+
     .who-text {
         width: 100%;
     }
+
     .who-text p {
         font-size: 14px;
         line-height: 22px;
         text-align: center;
     }
-    .who-text p + p {
+
+    .who-text p+p {
         margin-top: 16px;
     }
+
     .author-card {
         margin: 40px 20px 0;
         padding: 30px 20px;
@@ -1744,26 +2022,32 @@ body{
         gap: 24px;
         text-align: center;
     }
+
     .author-img-wrap {
         width: 200px;
         margin: 0 auto;
     }
+
     .author-quote {
         font-size: 14px;
         line-height: 22px;
         text-align: left;
     }
+
     .author-name {
         margin-top: 20px;
         font-size: 16px;
     }
+
     .author-role {
         font-size: 13px;
     }
+
     .gallery-section {
         margin-top: 40px;
         padding: 0 20px;
     }
+
     .gallery-grid {
         display: flex;
         gap: 12px;
@@ -1771,29 +2055,36 @@ body{
         padding-bottom: 10px;
         scroll-snap-type: x mandatory;
     }
+
     .gallery-grid::-webkit-scrollbar {
         height: 4px;
     }
+
     .gallery-grid::-webkit-scrollbar-thumb {
         background-color: #15a98b;
         border-radius: 2px;
     }
+
     .gallery-item {
         flex: 0 0 220px;
         height: 130px;
         scroll-snap-align: start;
     }
+
     .experts-section {
         margin-top: 56px;
         padding: 0 20px;
     }
+
     .experts-slider-wrap {
         margin-top: 24px;
         position: relative;
     }
+
     .slider-btn {
-        display: none; 
+        display: none;
     }
+
     .experts-track {
         display: flex;
         gap: 16px;
@@ -1802,143 +2093,177 @@ body{
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
     }
+
     .experts-track::-webkit-scrollbar {
         height: 4px;
     }
+
     .experts-track::-webkit-scrollbar-thumb {
         background-color: #15a98b;
         border-radius: 2px;
     }
+
     .expert-card {
         flex: 0 0 240px;
         scroll-snap-align: start;
         text-align: center;
     }
+
     .expert-img {
         width: 140px;
         height: 140px;
     }
+
     .expert-name {
         margin-top: 16px;
         font-size: 16px;
     }
+
     .expert-desc {
         margin-top: 8px;
         font-size: 13px;
         line-height: 20px;
         padding: 0;
     }
+
     .partners-section {
         margin-top: 56px;
         padding: 0 20px;
     }
+
     .partners-grid {
         margin-top: 24px;
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
     }
+
     .partner-card {
         height: 90px;
         padding: 15px;
     }
+
     .partner-cta-section {
         height: auto;
         margin-top: 56px;
         padding: 60px 16px;
     }
+
     .partner-cta-title {
         font-size: 22px;
         line-height: 32px;
     }
+
     .partner-cta-text {
         margin-top: 16px;
         font-size: 14px;
         line-height: 22px;
     }
+
     .partner-cta-btn {
         width: 100%;
         height: 54px;
         margin-top: 24px;
         font-size: 16px;
     }
+
     .events-section {
         margin-top: 56px;
         padding: 0 20px;
     }
+
     .events-grid {
         margin-top: 24px;
         flex-direction: column;
         gap: 16px;
     }
+
     .event-card {
         width: 100%;
     }
+
     .event-img-wrap {
         height: 150px;
     }
+
     .event-body {
         padding: 20px;
     }
+
     .event-title {
         font-size: 16px;
         line-height: 24px;
     }
+
     .event-desc {
         font-size: 13px;
         line-height: 20px;
     }
+
     .event-date {
         margin-top: 16px;
     }
+
     .feedback-section {
         margin-top: 56px;
         padding: 40px 0;
     }
+
     .feedback-in {
         flex-direction: column;
         gap: 32px;
         padding: 0 16px;
     }
+
     .feedback-text {
         width: 100%;
         text-align: center;
     }
+
     .feedback-title {
         font-size: 26px;
         line-height: 34px;
     }
+
     .feedback-desc {
         font-size: 14px;
         line-height: 22px;
     }
+
     .feedback-socials {
         margin-top: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .socials-links {
         justify-content: center;
         gap: 12px;
     }
+
     .feedback-form-wrap {
         width: 100%;
         padding: 24px 16px;
     }
+
     .form-input {
         height: 48px;
         font-size: 14px;
     }
+
     .phone-code {
         height: 48px;
     }
+
     .form-btn {
         height: 48px;
         font-size: 16px;
     }
+
     .footer-section {
         padding: 40px 0;
     }
+
     .footer-in {
         flex-direction: column;
         align-items: center;
@@ -1946,10 +2271,12 @@ body{
         gap: 30px;
         padding: 0 16px;
     }
+
     .footer-nav {
         flex-direction: column;
         gap: 16px;
     }
+
     .footer-contacts {
         text-align: center;
     }
